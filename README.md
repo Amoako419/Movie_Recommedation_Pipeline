@@ -15,8 +15,6 @@ This project builds an ETL (Extract, Transform, Load) pipeline to process MovieL
 ## Data Source
 The data used in this project is from the [MovieLens Dataset](https://grouplens.org/datasets/movielens/). This dataset contains 32,000,204 ratings and 2,000,072 tag applications across 87,585 movies, created by 200,948 users between January 09, 1995, and October 12, 2023.
 
-## Project Structure
-.gitignore etl.ipynb ml-32m/ checksums.txt links.csv movies.csv ratings.csv README.txt README.md
 
 ## Usage
 1. **Extract Data**: Load the MovieLens dataset files (`ratings.csv`, `movies.csv`, etc.) into Pandas DataFrames.
